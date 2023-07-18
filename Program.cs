@@ -35,7 +35,7 @@ namespace WorkDistribution
                 remainingScripts -= numScriptsPerLecturer[i];
             }
 
-            // Calculating the estimated time to mark the scripts for each lecturer
+            // Calculatingg the estimated time to mark the scripts for each lecturer
             Console.WriteLine("\nScripts Allocation:");
             for (int i = 0; i < numLecturers; i++)
             {
